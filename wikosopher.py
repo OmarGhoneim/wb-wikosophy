@@ -9,7 +9,7 @@ def get_to_philosophy(url, cache = []):
     cache.append(url)
 
     #names of certain classes and ids to be removed (red, external, /link/, [link], footnote, country coordinates)
-    excluded_classes = ["new", "extiw", 'nowrap', 'IPA', 'reference']
+    excluded_classes = ["new", "extiw", 'nowrap', 'IPA', 'reference', 'mw-selflink selflink']
     excluded_ids = ["coordinates"]
 
     #avioding heavy load
