@@ -50,7 +50,7 @@ def get_to_philosophy(url, cache = []):
 
     #the fuction calls itself over again untill getting to philosophy or detecting a loop from a previous link
     if(link == "https://en.wikipedia.org/wiki/Philosophy"):
-        print("Wikosofy succeeded, Just as expected !")
+        print("Wikosopher found it, Just as expected !")
         return link
     elif(link in cache):
         print("Stuck in a loop !")
