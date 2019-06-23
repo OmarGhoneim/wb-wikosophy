@@ -12,3 +12,9 @@ This repository is all about testing this phenonemon.
 4. Get the first link.
 5. Request the link page and back to 1 again untill finding philosophy article, being stuck in a loop and reaching a deadend page
 
+#Challenges:
+- Removing parantheses removed some links like:
+  https://en.wikipedia.org/wiki/Object_(philosophy)
+  So, it was necessary to change regex pattern in order to ignore any '(' preceded by '_'.
+- Some links caused TypeErros because they were fake but included in the structure of the page,
+  I handled them with an exception to continue searching for other links if any error is raised.
