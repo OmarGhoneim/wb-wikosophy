@@ -1,7 +1,7 @@
 # wb-wikosophy
 Python recursive function to test Wikipidia "Getting to Philosophy" phenomenon.
 
-As stated in Wikipidia "Getting to Philsophy" article, Clicking on the first link in the main text of a Wikipedia article, 
+As stated in Wikipidia "Getting to Philsophy" article, clicking on the first link in the main text of a Wikipedia article, 
 and then repeating the process for subsequent articles, would usually lead to the Philosophy article.
 This repository is all about testing this phenonemon.
 
